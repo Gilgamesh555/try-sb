@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/dropdown/dropdown.ts"],
+  "sourcesContent": ["import Dropdown from './dropdown.component';\n\nexport * from './dropdown.component';\nexport default Dropdown;\n\nDropdown.define('koerber-dropdown');\n\ndeclare global {\n  interface HTMLElementTagNameMap {\n    'koerber-dropdown': Dropdown;\n  }\n}\n"],
+  "mappings": ";;;;;AAGA,IAAO,mBAAQ;AAEf,SAAS,OAAO,kBAAkB;",
+  "names": []
+}

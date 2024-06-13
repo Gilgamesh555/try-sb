@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/spinner/spinner.ts"],
+  "sourcesContent": ["import Spinner from './spinner.component';\n\nexport * from './spinner.component';\nexport default Spinner;\n\nSpinner.define('koerber-spinner');\n\ndeclare global {\n  interface HTMLElementTagNameMap {\n    'koerber-spinner': Spinner;\n  }\n}\n"],
+  "mappings": ";;;;;AAGA,IAAO,kBAAQ;AAEf,QAAQ,OAAO,iBAAiB;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/list/list.styles.ts"],
+  "sourcesContent": ["import { css } from 'lit';\nimport componentStyles from '../../styles/component.styles';\n\nexport default css`\n  ${componentStyles}\n\n  :host {\n    display: block;\n  }\n\n  .list {\n    position: relative;\n    padding: var(--koerber-spacing-s);\n  }\n`;\n"],
+  "mappings": ";;;;;AAAA,SAAS,WAAW;AAGpB,IAAO,sBAAQ;AAAA,IACX,wBAAe;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;",
+  "names": []
+}

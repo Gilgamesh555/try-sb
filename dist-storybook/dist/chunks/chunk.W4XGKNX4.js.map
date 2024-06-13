@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/animation/animations.ts"],
+  "sourcesContent": ["import * as animations from '@shoelace-style/animations';\n\nexport { animations };\n\n/** Gets a list of all supported animation names. */\nexport function getAnimationNames() {\n  return Object.entries(animations)\n    .filter(([name]) => name !== 'easings')\n    .map(([name]) => name);\n}\n\n/** Gets a list of all supported easing function names. */\nexport function getEasingNames() {\n  return Object.entries(animations.easings).map(([name]) => name);\n}\n"],
+  "mappings": ";AAAA,YAAY,gBAAgB;AAKrB,SAAS,oBAAoB;AAClC,SAAO,OAAO,QAAQ,UAAU,EAC7B,OAAO,CAAC,CAAC,IAAI,MAAM,SAAS,SAAS,EACrC,IAAI,CAAC,CAAC,IAAI,MAAM,IAAI;AACzB;AAGO,SAAS,iBAAiB;AAC/B,SAAO,OAAO,QAAmB,kBAAO,EAAE,IAAI,CAAC,CAAC,IAAI,MAAM,IAAI;AAChE;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/menu/menu.styles.ts"],
+  "sourcesContent": ["import { css } from 'lit';\r\n\r\nexport default css`\r\n  :host {\r\n    display: block;\r\n    position: relative;\r\n    background: var(--koerber-panel-background-color);\r\n    border: solid var(--koerber-shape-border-divider) var(--koerber-color-border);\r\n    border-radius: var(--koerber-border-radius-small);\r\n    padding: var(--koerber-spacing-xs) 0 0 0;\r\n    overflow: auto;\r\n    overscroll-behavior: none;\r\n    max-width: 290px;\r\n    min-width: 180px;\r\n    width: min-content;\r\n  }\r\n\r\n  ::slotted(koerber-divider) {\r\n    --spacing: var(--koerber-spacing-xs);\r\n  }\r\n`;\r\n"],
+  "mappings": ";AAAA,SAAS,WAAW;AAEpB,IAAO,sBAAQ;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;",
+  "names": []
+}

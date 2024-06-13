@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/select/select.ts"],
+  "sourcesContent": ["import Select from './select.component';\n\nexport * from './select.component';\nexport default Select;\n\nSelect.define('koerber-select');\n\ndeclare global {\n  interface HTMLElementTagNameMap {\n    'koerber-select': Select;\n  }\n}\n"],
+  "mappings": ";;;;;AAGA,IAAO,iBAAQ;AAEf,OAAO,OAAO,gBAAgB;",
+  "names": []
+}

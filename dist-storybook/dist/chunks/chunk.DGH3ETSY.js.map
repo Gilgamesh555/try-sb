@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/accordion/accordion.ts"],
+  "sourcesContent": ["import Accordion from './accordion.component';\n\nexport * from './accordion.component';\nexport default Accordion;\n\nAccordion.define('koerber-accordion');\n\ndeclare global {\n  interface HTMLElementTagNameMap {\n    'koerber-accordion': Accordion;\n  }\n}\n"],
+  "mappings": ";;;;;AAGA,IAAO,oBAAQ;AAEf,UAAU,OAAO,mBAAmB;",
+  "names": []
+}

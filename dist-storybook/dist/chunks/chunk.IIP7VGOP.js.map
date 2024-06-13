@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/chip/chip.ts"],
+  "sourcesContent": ["import Chip from './chip.component';\n\nexport * from './chip.component';\nexport default Chip;\n\nChip.define('koerber-chip');\n\ndeclare global {\n  interface HTMLElementTagNameMap {\n    'koerber-chip': Chip;\n  }\n}\n"],
+  "mappings": ";;;;;AAGA,IAAO,eAAQ;AAEf,KAAK,OAAO,cAAc;",
+  "names": []
+}

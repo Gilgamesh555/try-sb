@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/alert/alert.ts"],
+  "sourcesContent": ["import Alert from './alert.component';\n\nexport * from './alert.component';\nexport default Alert;\n\nAlert.define('koerber-alert');\n\ndeclare global {\n  interface HTMLElementTagNameMap {\n    'koerber-alert': Alert;\n  }\n}\n"],
+  "mappings": ";;;;;AAGA,IAAO,gBAAQ;AAEf,MAAM,OAAO,eAAe;",
+  "names": []
+}

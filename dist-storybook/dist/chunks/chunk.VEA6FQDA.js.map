@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/include/include.styles.ts"],
+  "sourcesContent": ["import { css } from 'lit';\n\nexport default css`\n  :host {\n    display: block;\n  }\n`;\n"],
+  "mappings": ";AAAA,SAAS,WAAW;AAEpB,IAAO,yBAAQ;AAAA;AAAA;AAAA;AAAA;",
+  "names": []
+}

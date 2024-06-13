@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/menu/menu.ts"],
+  "sourcesContent": ["import Menu from './menu.component';\n\nexport * from './menu.component';\nexport default Menu;\n\nMenu.define('koerber-menu');\n\ndeclare global {\n  interface HTMLElementTagNameMap {\n    'koerber-menu': Menu;\n  }\n}\n"],
+  "mappings": ";;;;;AAGA,IAAO,eAAQ;AAEf,KAAK,OAAO,cAAc;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/divider/divider.styles.ts"],
+  "sourcesContent": ["import { css } from 'lit';\n\nexport default css`\n  :host {\n    --color: var(--koerber-color-bg-fill);\n    --width: var(--koerber-border-width-s);\n    --spacing: var(--koerber-spacing-s);\n    width: 100%;\n    height: 100%;\n  }\n\n  :host(:not([vertical])) {\n    display: block;\n    border-top: solid var(--width) var(--color);\n    margin: 0;\n    color: var(--color);\n  }\n\n  :host([vertical]) {\n    display: flex;\n    height: 10rem;\n    border-left: solid var(--width) var(--color);\n    margin: 0;\n    color: var(--color);\n  }\n`;\n"],
+  "mappings": ";AAAA,SAAS,WAAW;AAEpB,IAAO,yBAAQ;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;",
+  "names": []
+}

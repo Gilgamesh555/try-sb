@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/card/card.ts"],
+  "sourcesContent": ["import Card from './card.component';\n\nexport * from './card.component';\nexport default Card;\n\nCard.define('koerber-card');\n\ndeclare global {\n  interface HTMLElementTagNameMap {\n    'koerber-card': Card;\n  }\n}\n"],
+  "mappings": ";;;;;AAGA,IAAO,eAAQ;AAEf,KAAK,OAAO,cAAc;",
+  "names": []
+}

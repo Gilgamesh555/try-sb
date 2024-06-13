@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/search/search.ts"],
+  "sourcesContent": ["import Search from './search.component';\r\n\r\nexport * from './search.component';\r\nexport default Search;\r\n\r\nSearch.define('koerber-search');\r\n\r\ndeclare global {\r\n  interface HTMLElementTagNameMap {\r\n    'koerber-search': Search;\r\n  }\r\n}\r\n"],
+  "mappings": ";;;;;AAGA,IAAO,iBAAQ;AAEf,OAAO,OAAO,gBAAgB;",
+  "names": []
+}

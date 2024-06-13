@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/icon-button/icon-button.styles.ts"],
+  "sourcesContent": ["import { css } from 'lit';\r\n\r\nexport default css`\r\n  :host {\r\n    display: inline-block;\r\n  }\r\n\r\n  .icon-button {\r\n    flex: 0 0 auto;\r\n    display: flex;\r\n    align-items: center;\r\n    background: none;\r\n    border: none;\r\n    border-radius: var(--koerber-border-radius-medium);\r\n    font-size: inherit;\r\n    color: inherit;\r\n    padding: var(--koerber-spacing-xs);\r\n    cursor: pointer;\r\n    transition: var(--koerber-transition-x-fast) color;\r\n    -webkit-appearance: none;\r\n  }\r\n\r\n  .icon-button:focus {\r\n    outline: none;\r\n  }\r\n\r\n  .icon-button--disabled {\r\n    opacity: 0.5;\r\n    cursor: not-allowed;\r\n  }\r\n\r\n  .icon-button:focus-visible {\r\n    outline: var(--koerber-focus-ring);\r\n    outline-offset: var(--koerber-border-offset);\r\n  }\r\n\r\n  .icon-button__icon {\r\n    pointer-events: none;\r\n  }\r\n\r\n  .icon-button:hover {\r\n    color: var(--koerber-color-icon-hover);\r\n  }\r\n`;\r\n"],
+  "mappings": ";AAAA,SAAS,WAAW;AAEpB,IAAO,6BAAQ;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;",
+  "names": []
+}

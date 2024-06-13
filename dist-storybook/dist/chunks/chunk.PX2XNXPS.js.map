@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/icon/library.default.ts"],
+  "sourcesContent": ["import { getBasePath } from '../../utilities/base-path';\nimport type { IconLibrary } from './library';\n\nconst library: IconLibrary = {\n  name: 'default',\n  resolver: name => getBasePath(`assets/icons/svg/${name}.svg`)\n};\n\nexport default library;\n"],
+  "mappings": ";;;;;AAGA,IAAM,UAAuB;AAAA,EAC3B,MAAM;AAAA,EACN,UAAU,UAAQ,YAAY,oBAAoB,IAAI,MAAM;AAC9D;AAEA,IAAO,0BAAQ;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/link/link.ts"],
+  "sourcesContent": ["import Link from './link.component';\n\nexport * from './link.component';\nexport default Link;\n\nLink.define('koerber-link');\n\ndeclare global {\n  interface HTMLElementTagNameMap {\n    'koerber-link': Link;\n  }\n}\n"],
+  "mappings": ";;;;;AAGA,IAAO,eAAQ;AAEf,KAAK,OAAO,cAAc;",
+  "names": []
+}

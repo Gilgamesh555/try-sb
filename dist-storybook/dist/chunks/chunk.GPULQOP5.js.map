@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/drawer/drawer.ts"],
+  "sourcesContent": ["import Drawer from './drawer.component';\r\n\r\nexport * from './drawer.component';\r\nexport default Drawer;\r\n\r\nDrawer.define('koerber-drawer');\r\n\r\ndeclare global {\r\n  interface HTMLElementTagNameMap {\r\n    'koerber-drawer': Drawer;\r\n  }\r\n}\r\n"],
+  "mappings": ";;;;;AAGA,IAAO,iBAAQ;AAEf,OAAO,OAAO,gBAAgB;",
+  "names": []
+}

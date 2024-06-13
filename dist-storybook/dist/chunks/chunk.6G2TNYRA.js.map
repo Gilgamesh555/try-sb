@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/button/button.ts"],
+  "sourcesContent": ["import Button from './button.component';\n\nexport * from './button.component';\nexport default Button;\n\nButton.define('koerber-button');\n\ndeclare global {\n  interface HTMLElementTagNameMap {\n    'koerber-button': Button;\n  }\n}\n"],
+  "mappings": ";;;;;AAGA,IAAO,iBAAQ;AAEf,OAAO,OAAO,gBAAgB;",
+  "names": []
+}

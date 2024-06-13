@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/radio/radio.ts"],
+  "sourcesContent": ["import Radio from './radio.component';\n\nexport * from './radio.component';\nexport default Radio;\n\nRadio.define('koerber-radio');\n\ndeclare global {\n  interface HTMLElementTagNameMap {\n    'koerber-radio': Radio;\n  }\n}\n"],
+  "mappings": ";;;;;AAGA,IAAO,gBAAQ;AAEf,MAAM,OAAO,eAAe;",
+  "names": []
+}

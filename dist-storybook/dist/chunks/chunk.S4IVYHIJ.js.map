@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/input/input.ts"],
+  "sourcesContent": ["import Input from './input.component';\n\nexport * from './input.component';\nexport default Input;\n\nInput.define('koerber-input');\n\ndeclare global {\n  interface HTMLElementTagNameMap {\n    'koerber-input': Input;\n  }\n}\n"],
+  "mappings": ";;;;;AAGA,IAAO,gBAAQ;AAEf,MAAM,OAAO,eAAe;",
+  "names": []
+}

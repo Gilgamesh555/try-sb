@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/radio-button/radio-button.ts"],
+  "sourcesContent": ["import RadioButton from './radio-button.component';\n\nexport * from './radio-button.component';\nexport default RadioButton;\n\nRadioButton.define('koerber-radio-button');\n\ndeclare global {\n  interface HTMLElementTagNameMap {\n    'koerber-radio-button': RadioButton;\n  }\n}\n"],
+  "mappings": ";;;;;AAGA,IAAO,uBAAQ;AAEf,YAAY,OAAO,sBAAsB;",
+  "names": []
+}

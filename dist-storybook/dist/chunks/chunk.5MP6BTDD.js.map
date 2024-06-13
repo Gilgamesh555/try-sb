@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/breadcrumb/breadcrumb.ts"],
+  "sourcesContent": ["import Breadcrumb from './breadcrumb.component';\n\nexport * from './breadcrumb.component';\nexport default Breadcrumb;\n\nBreadcrumb.define('koerber-breadcrumb');\n\ndeclare global {\n  interface HTMLElementTagNameMap {\n    'koerber-breadcrumb': Breadcrumb;\n  }\n}\n"],
+  "mappings": ";;;;;AAGA,IAAO,qBAAQ;AAEf,WAAW,OAAO,oBAAoB;",
+  "names": []
+}

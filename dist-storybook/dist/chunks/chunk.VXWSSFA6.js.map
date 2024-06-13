@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/textarea/textarea.ts"],
+  "sourcesContent": ["import Textarea from './textarea.component';\n\nexport * from './textarea.component';\nexport default Textarea;\n\nTextarea.define('koerber-textarea');\n\ndeclare global {\n  interface HTMLElementTagNameMap {\n    'koerber-textarea': Textarea;\n  }\n}\n"],
+  "mappings": ";;;;;AAGA,IAAO,mBAAQ;AAEf,SAAS,OAAO,kBAAkB;",
+  "names": []
+}

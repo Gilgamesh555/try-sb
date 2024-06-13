@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/form-field-label/form-field-label.styles.ts"],
+  "sourcesContent": ["import { css } from 'lit';\n\nexport default css`\n  :host {\n    display: block;\n  }\n\n  .body {\n    height: 1.2em;\n    line-height: 1em;\n    display: flex;\n  }\n\n  .label_container {\n    overflow: hidden;\n    text-overflow: ellipsis;\n    white-space: nowrap;\n  }\n\n  .asterisk {\n    padding-right: 5px;\n  }\n\n  .info_icon {\n    padding-left: 10px;\n    padding-right: 10px;\n    height: 16px;\n    width: 16px;\n    padding-bottom: 3px;\n  }\n`;\n"],
+  "mappings": ";AAAA,SAAS,WAAW;AAEpB,IAAO,kCAAQ;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;",
+  "names": []
+}

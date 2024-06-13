@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/button-group/button-group.ts"],
+  "sourcesContent": ["import ButtonGroup from './button-group.component';\n\nexport * from './button-group.component';\nexport default ButtonGroup;\n\nButtonGroup.define('koerber-button-group');\n\ndeclare global {\n  interface HTMLElementTagNameMap {\n    'koerber-button-group': ButtonGroup;\n  }\n}\n"],
+  "mappings": ";;;;;AAGA,IAAO,uBAAQ;AAEf,YAAY,OAAO,sBAAsB;",
+  "names": []
+}

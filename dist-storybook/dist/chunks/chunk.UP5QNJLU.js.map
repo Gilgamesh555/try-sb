@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/form-field/form-field.ts"],
+  "sourcesContent": ["import FormField from './form-field.component';\n\nexport * from './form-field.component';\nexport default FormField;\n\nFormField.define('koerber-form-field');\n\ndeclare global {\n  interface HTMLElementTagNameMap {\n    'koerber-form-field': FormField;\n  }\n}\n"],
+  "mappings": ";;;;;AAGA,IAAO,qBAAQ;AAEf,UAAU,OAAO,oBAAoB;",
+  "names": []
+}

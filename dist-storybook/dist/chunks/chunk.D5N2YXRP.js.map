@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/form-field-error/form-field-error.component.ts"],
+  "sourcesContent": ["import { html } from 'lit';\r\nimport componentStyles from '../../styles/component.styles';\r\nimport styles from './form-field-error.styles';\r\nimport UIKitElement from '../../internal/uikit-element';\r\nimport type { CSSResultGroup } from 'lit';\r\n\r\n/**\r\n * @documentation https://kind-desert-0fb80550f.5.azurestaticapps.net/?path=/docs/components-form-field-error--docs\r\n *\r\n * @slot - The Form field error\u2019s main content.\r\n *\r\n * @csspart base - The component's base wrapper.\r\n *\r\n */\r\nexport default class FormFieldError extends UIKitElement {\r\n  static styles: CSSResultGroup = [styles, componentStyles];\r\n\r\n  render() {\r\n    return html`<div part=\"base\" class=\"form-field-error\"><slot></slot></div>`;\r\n  }\r\n}\r\n"],
+  "mappings": ";;;;;;;;;;;AAAA,SAAS,YAAY;AAcrB,IAAqB,iBAArB,cAA4C,aAAa;AAAA,EAGvD,SAAS;AACP,WAAO;AAAA,EACT;AACF;AANqB,eACZ,SAAyB,CAAC,iCAAQ,wBAAe;",
+  "names": []
+}

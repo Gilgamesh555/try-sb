@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/tooltip/tooltip.ts"],
+  "sourcesContent": ["import Tooltip from './tooltip.component';\n\nexport * from './tooltip.component';\nexport default Tooltip;\n\nTooltip.define('koerber-tooltip');\n\ndeclare global {\n  interface HTMLElementTagNameMap {\n    'koerber-tooltip': Tooltip;\n  }\n}\n"],
+  "mappings": ";;;;;AAGA,IAAO,kBAAQ;AAEf,QAAQ,OAAO,iBAAiB;",
+  "names": []
+}

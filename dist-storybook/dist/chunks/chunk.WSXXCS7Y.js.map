@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/toggle/toggle.ts"],
+  "sourcesContent": ["import Toggle from './toggle.component';\n\nexport * from './toggle.component';\nexport default Toggle;\n\nToggle.define('koerber-toggle');\n\ndeclare global {\n  interface HTMLElementTagNameMap {\n    'koerber-toggle': Toggle;\n  }\n}\n"],
+  "mappings": ";;;;;AAGA,IAAO,iBAAQ;AAEf,OAAO,OAAO,gBAAgB;",
+  "names": []
+}

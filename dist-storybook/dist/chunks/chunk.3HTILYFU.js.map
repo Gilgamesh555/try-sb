@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/icon-button/icon-button.ts"],
+  "sourcesContent": ["import IconButton from './icon-button.component';\n\nexport * from './icon-button.component';\nexport default IconButton;\n\nIconButton.define('koerber-icon-button');\n\ndeclare global {\n  interface HTMLElementTagNameMap {\n    'koerber-icon-button': IconButton;\n  }\n}\n"],
+  "mappings": ";;;;;AAGA,IAAO,sBAAQ;AAEf,WAAW,OAAO,qBAAqB;",
+  "names": []
+}

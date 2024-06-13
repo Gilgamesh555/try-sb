@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/animation/animation.ts"],
+  "sourcesContent": ["import Animation from './animation.component';\n\nexport * from './animation.component';\nexport default Animation;\n\nAnimation.define('koerber-animation');\n\ndeclare global {\n  interface HTMLElementTagNameMap {\n    'koerber-animation': Animation;\n  }\n}\n"],
+  "mappings": ";;;;;AAGA,IAAO,oBAAQ;AAEf,iBAAU,OAAO,mBAAmB;",
+  "names": []
+}

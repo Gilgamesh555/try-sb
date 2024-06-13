@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/radio-group/radio-group.ts"],
+  "sourcesContent": ["import RadioGroup from './radio-group.component';\n\nexport * from './radio-group.component';\nexport default RadioGroup;\n\nRadioGroup.define('koerber-radio-group');\n\ndeclare global {\n  interface HTMLElementTagNameMap {\n    'koerber-radio-group': RadioGroup;\n  }\n}\n"],
+  "mappings": ";;;;;AAGA,IAAO,sBAAQ;AAEf,WAAW,OAAO,qBAAqB;",
+  "names": []
+}

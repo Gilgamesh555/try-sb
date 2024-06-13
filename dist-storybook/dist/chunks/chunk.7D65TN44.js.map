@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/popup/popup.ts"],
+  "sourcesContent": ["import Popup from './popup.component';\n\nexport * from './popup.component';\nexport default Popup;\n\nPopup.define('koerber-popup');\n\ndeclare global {\n  interface HTMLElementTagNameMap {\n    'koerber-popup': Popup;\n  }\n}\n"],
+  "mappings": ";;;;;AAGA,IAAO,gBAAQ;AAEf,MAAM,OAAO,eAAe;",
+  "names": []
+}

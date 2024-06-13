@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/divider/divider.ts"],
+  "sourcesContent": ["import Divider from './divider.component';\n\nexport * from './divider.component';\nexport default Divider;\n\nDivider.define('koerber-divider');\n\ndeclare global {\n  interface HTMLElementTagNameMap {\n    'koerber-divider': Divider;\n  }\n}\n"],
+  "mappings": ";;;;;AAGA,IAAO,kBAAQ;AAEf,QAAQ,OAAO,iBAAiB;",
+  "names": []
+}

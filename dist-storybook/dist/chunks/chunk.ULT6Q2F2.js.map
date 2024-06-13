@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/checkbox/checkbox.ts"],
+  "sourcesContent": ["import Checkbox from './checkbox.component';\n\nexport * from './checkbox.component';\nexport default Checkbox;\n\nCheckbox.define('koerber-checkbox');\n\ndeclare global {\n  interface HTMLElementTagNameMap {\n    'koerber-checkbox': Checkbox;\n  }\n}\n"],
+  "mappings": ";;;;;AAGA,IAAO,mBAAQ;AAEf,SAAS,OAAO,kBAAkB;",
+  "names": []
+}

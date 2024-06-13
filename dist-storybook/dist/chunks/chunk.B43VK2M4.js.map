@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/tree-item/tree-item.ts"],
+  "sourcesContent": ["import TreeItem from './tree-item.component';\n\nexport * from './tree-item.component';\nexport default TreeItem;\n\nTreeItem.define('koerber-tree-item');\n\ndeclare global {\n  interface HTMLElementTagNameMap {\n    'koerber-tree-item': TreeItem;\n  }\n}\n"],
+  "mappings": ";;;;;AAGA,IAAO,oBAAQ;AAEf,SAAS,OAAO,mBAAmB;",
+  "names": []
+}

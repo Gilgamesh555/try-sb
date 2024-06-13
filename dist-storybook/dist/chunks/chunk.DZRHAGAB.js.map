@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/badge/badge.ts"],
+  "sourcesContent": ["import Badge from './badge.component';\n\nexport * from './badge.component';\nexport default Badge;\n\nBadge.define('koerber-badge');\n\ndeclare global {\n  interface HTMLElementTagNameMap {\n    'koerber-badge': Badge;\n  }\n}\n"],
+  "mappings": ";;;;;AAGA,IAAO,gBAAQ;AAEf,MAAM,OAAO,eAAe;",
+  "names": []
+}

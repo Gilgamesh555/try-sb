@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/tree/tree.styles.ts"],
+  "sourcesContent": ["import { css } from 'lit';\n\nexport default css`\n  :host {\n    /*\n     * These are actually used by tree item, but we define them here so they can more easily be set and all tree items\n     * stay consistent.\n     */\n    --indent-guide-color: var(--koerber-color-neutral-200);\n    --indent-guide-offset: 0;\n    --indent-guide-style: solid;\n    --indent-guide-width: 0;\n    --indent-size: var(--koerber-spacing-m);\n\n    display: block;\n    isolation: isolate;\n\n    /*\n     * Tree item indentation uses the \"em\" unit to increment its width on each level, so setting the font size to zero\n     * here removes the indentation for all the nodes on the first level.\n     */\n    font-size: 0;\n  }\n`;\n"],
+  "mappings": ";AAAA,SAAS,WAAW;AAEpB,IAAO,sBAAQ;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/translations/de-ch.ts"],
+  "sourcesContent": ["import { registerTranslation } from '../utilities/localize';\nimport baseTranslation from './de';\nimport type { Translation } from '../utilities/localize';\n\nconst translation: Translation = {\n  ...baseTranslation,\n  $code: 'de-CH',\n  $name: 'Deutsch (Schweiz)',\n\n  close: 'Schliessen',\n  resize: 'Gr\u00F6sse \u00E4ndern'\n};\n\nregisterTranslation(translation);\n\nexport default translation;\n"],
+  "mappings": ";;;;;;;;;;;;;AAIA,IAAM,cAA2B,iCAC5B,aAD4B;AAAA,EAE/B,OAAO;AAAA,EACP,OAAO;AAAA,EAEP,OAAO;AAAA,EACP,QAAQ;AACV;AAEA,oBAAoB,WAAW;AAE/B,IAAO,gBAAQ;",
+  "names": []
+}

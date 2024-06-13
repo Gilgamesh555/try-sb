@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/breadcrumb/breadcrumb.styles.ts"],
+  "sourcesContent": ["import { css } from 'lit';\n\nexport default css`\n  .breadcrumb {\n    display: flex;\n    align-items: center;\n    flex-wrap: wrap;\n  }\n`;\n"],
+  "mappings": ";AAAA,SAAS,WAAW;AAEpB,IAAO,4BAAQ;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/form-field-error/form-field-error.ts"],
+  "sourcesContent": ["import FormFieldError from './form-field-error.component';\n\nexport * from './form-field-error.component';\nexport default FormFieldError;\n\nFormFieldError.define('koerber-form-field-error');\n\ndeclare global {\n  interface HTMLElementTagNameMap {\n    'koerber-form-field-error': FormFieldError;\n  }\n}\n"],
+  "mappings": ";;;;;AAGA,IAAO,2BAAQ;AAEf,eAAe,OAAO,0BAA0B;",
+  "names": []
+}

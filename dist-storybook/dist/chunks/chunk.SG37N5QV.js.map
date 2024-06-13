@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/icon/icon.styles.ts"],
+  "sourcesContent": ["import { css } from 'lit';\n\nexport default css`\n  :host {\n    display: inline-block;\n    vertical-align: middle;\n    box-sizing: content-box !important;\n    --koerber-icon-size-medium: 16px;\n    --koerber-icon-size-large: 24px;\n  }\n\n  svg {\n    display: block;\n    height: 100%;\n    width: 100%;\n  }\n\n  .icon {\n    width: var(--koerber-icon-size-medium);\n  }\n\n  .icon--medium {\n    width: var(--koerber-icon-size-medium);\n  }\n\n  .icon--large {\n    width: var(--koerber-icon-size-large);\n  }\n`;\n"],
+  "mappings": ";AAAA,SAAS,WAAW;AAEpB,IAAO,sBAAQ;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;",
+  "names": []
+}

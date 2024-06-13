@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/avatar/avatar.ts"],
+  "sourcesContent": ["import Avatar from './avatar.component';\n\nexport * from './avatar.component';\nexport default Avatar;\n\nAvatar.define('koerber-avatar');\n\ndeclare global {\n  interface HTMLElementTagNameMap {\n    'koerber-avatar': Avatar;\n  }\n}\n"],
+  "mappings": ";;;;;AAGA,IAAO,iBAAQ;AAEf,OAAO,OAAO,gBAAgB;",
+  "names": []
+}

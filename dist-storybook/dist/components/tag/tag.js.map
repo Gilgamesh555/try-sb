@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/components/tag/tag.ts"],
+  "sourcesContent": ["import Tag from './tag.component';\n\nexport * from './tag.component';\nexport default Tag;\n\nTag.define('koerber-tag');\n\ndeclare global {\n  interface HTMLElementTagNameMap {\n    'koerber-tag': Tag;\n  }\n}\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;AAGA,IAAO,cAAQ;AAEf,IAAI,OAAO,aAAa;",
+  "names": []
+}

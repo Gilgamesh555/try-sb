@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/icon/icon.ts"],
+  "sourcesContent": ["import Icon from './icon.component';\n\nexport * from './icon.component';\nexport default Icon;\n\nIcon.define('koerber-icon');\n\ndeclare global {\n  interface HTMLElementTagNameMap {\n    'koerber-icon': Icon;\n  }\n}\n"],
+  "mappings": ";;;;;AAGA,IAAO,eAAQ;AAEf,KAAK,OAAO,cAAc;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/list-item/list-item.ts"],
+  "sourcesContent": ["import ListItem from './list-item.component';\n\nexport * from './list-item.component';\nexport default ListItem;\n\nListItem.define('koerber-list-item');\n\ndeclare global {\n  interface HTMLElementTagNameMap {\n    'koerber-list-item': ListItem;\n  }\n}\n"],
+  "mappings": ";;;;;AAGA,IAAO,oBAAQ;AAEf,SAAS,OAAO,mBAAmB;",
+  "names": []
+}

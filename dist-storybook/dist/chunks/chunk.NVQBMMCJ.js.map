@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/form-field-label/form-field-label.ts"],
+  "sourcesContent": ["import FormFieldLabel from './form-field-label.component';\n\nexport * from './form-field-label.component';\nexport default FormFieldLabel;\n\nFormFieldLabel.define('koerber-form-field-label');\n\ndeclare global {\n  interface HTMLElementTagNameMap {\n    'koerber-form-field-label': FormFieldLabel;\n  }\n}\n"],
+  "mappings": ";;;;;AAGA,IAAO,2BAAQ;AAEf,eAAe,OAAO,0BAA0B;",
+  "names": []
+}

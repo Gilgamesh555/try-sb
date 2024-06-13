@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/select-option/select-option.ts"],
+  "sourcesContent": ["import SelectOption from './select-option.component';\n\nexport * from './select-option.component';\nexport default SelectOption;\n\nSelectOption.define('koerber-select-option');\n\ndeclare global {\n  interface HTMLElementTagNameMap {\n    'koerber-select-option': SelectOption;\n  }\n}\n"],
+  "mappings": ";;;;;AAGA,IAAO,wBAAQ;AAEf,aAAa,OAAO,uBAAuB;",
+  "names": []
+}

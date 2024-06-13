@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/icon/request.ts"],
+  "sourcesContent": ["import { requestInclude } from '../include/request';\n\ntype IconFile =\n  | {\n      ok: true;\n      status: number;\n      svg: string;\n    }\n  | {\n      ok: false;\n      status: number;\n      svg: null;\n    };\n\ninterface IconFileUnknown {\n  ok: boolean;\n  status: number;\n  svg: string | null;\n}\n\nconst iconFiles = new Map<string, IconFile>();\n\nexport async function requestIcon(url: string): Promise<IconFile> {\n  if (iconFiles.has(url)) {\n    return iconFiles.get(url)!;\n  }\n  const fileData = await requestInclude(url);\n  const iconFileData: IconFileUnknown = {\n    ok: fileData.ok,\n    status: fileData.status,\n    svg: null\n  };\n  if (fileData.ok) {\n    const div = document.createElement('div');\n    div.innerHTML = fileData.html;\n    const svg = div.firstElementChild;\n    iconFileData.svg = svg?.tagName.toLowerCase() === 'svg' ? svg.outerHTML : '';\n  }\n\n  iconFiles.set(url, iconFileData as IconFile);\n  return iconFileData as IconFile;\n}\n"],
+  "mappings": ";;;;;AAoBA,IAAM,YAAY,oBAAI,IAAsB;AAE5C,eAAsB,YAAY,KAAgC;AAChE,MAAI,UAAU,IAAI,GAAG,GAAG;AACtB,WAAO,UAAU,IAAI,GAAG;AAAA,EAC1B;AACA,QAAM,WAAW,MAAM,eAAe,GAAG;AACzC,QAAM,eAAgC;AAAA,IACpC,IAAI,SAAS;AAAA,IACb,QAAQ,SAAS;AAAA,IACjB,KAAK;AAAA,EACP;AACA,MAAI,SAAS,IAAI;AACf,UAAM,MAAM,SAAS,cAAc,KAAK;AACxC,QAAI,YAAY,SAAS;AACzB,UAAM,MAAM,IAAI;AAChB,iBAAa,OAAM,2BAAK,QAAQ,mBAAkB,QAAQ,IAAI,YAAY;AAAA,EAC5E;AAEA,YAAU,IAAI,KAAK,YAAwB;AAC3C,SAAO;AACT;",
+  "names": []
+}

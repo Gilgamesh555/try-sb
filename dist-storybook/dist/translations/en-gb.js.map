@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/translations/en-gb.ts"],
+  "sourcesContent": ["import { registerTranslation } from '../utilities/localize';\nimport baseTranslation from './en';\nimport type { Translation } from '../utilities/localize';\n\nconst translation: Translation = {\n  ...baseTranslation,\n  $code: 'en-GB',\n  $name: 'English (United Kingdom)',\n\n  selectAColorFromTheScreen: 'Select a colour from the screen',\n  toggleColorFormat: 'Toggle colour format'\n};\n\nregisterTranslation(translation);\n\nexport default translation;\n"],
+  "mappings": ";;;;;;;;;;;;AAIA,IAAM,cAA2B,iCAC5B,aAD4B;AAAA,EAE/B,OAAO;AAAA,EACP,OAAO;AAAA,EAEP,2BAA2B;AAAA,EAC3B,mBAAmB;AACrB;AAEA,oBAAoB,WAAW;AAE/B,IAAO,gBAAQ;",
+  "names": []
+}

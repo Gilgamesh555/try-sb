@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/search-option/search-option.ts"],
+  "sourcesContent": ["import SearchOption from './search-option.component';\r\n\r\nexport * from './search-option.component';\r\nexport default SearchOption;\r\n\r\nSearchOption.define('koerber-search-option');\r\n\r\ndeclare global {\r\n  interface HTMLElementTagNameMap {\r\n    'koerber-search-option': SearchOption;\r\n  }\r\n}\r\n"],
+  "mappings": ";;;;;AAGA,IAAO,wBAAQ;AAEf,aAAa,OAAO,uBAAuB;",
+  "names": []
+}

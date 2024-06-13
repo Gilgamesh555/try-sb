@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/include/include.ts"],
+  "sourcesContent": ["import Include from './include.component';\n\nexport * from './include.component';\nexport default Include;\n\nInclude.define('koerber-include');\n\ndeclare global {\n  interface HTMLElementTagNameMap {\n    'koerber-include': Include;\n  }\n}\n"],
+  "mappings": ";;;;;AAGA,IAAO,kBAAQ;AAEf,QAAQ,OAAO,iBAAiB;",
+  "names": []
+}
